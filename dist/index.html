@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="아난티 프리미엄 리조트 | 럭셔리 호텔, 골프, 수영장, 힐링 여행">
+    <title>ANANTI | 일상을 예술로 바꾸는 완벽한 쉼</title>
+
+    <link rel="shortcut icon" href="/memo-app/assets/favicon-W7GS8Mp9.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400&family=Noto+Sans+KR:wght@300;400;700&family=Cormorant+Garamond:wght@300;400;500&display=swap" rel="stylesheet">
+  <script type="module" crossorigin src="/memo-app/assets/index-DRs4ZgXH.js"></script>
+  <link rel="stylesheet" crossorigin href="/memo-app/assets/index-QCLVD6id.css">
+</head>
+
+<body>
+
+    <div id="menuOverlay"></div>
+
+    <div id="megaPanel">
+        <div class="mp-header">
+            <div class="mp-logo">ANANTI</div>
+            <button class="mp-close" aria-label="메뉴닫기"></button>
+        </div>
+
+        <div class="mp-body">
+
+            <!-- 1열: 카테고리 -->
+            <div class="mp-col1">
+                <nav class="mp-nav-list">
+                    <div class="mp-nav-item active" data-target="sub-destination">
+                        <span>목적지</span><span class="arrow">›</span>
+                    </div>
+                    <div class="mp-nav-item" data-target="sub-experience">
+                        <span>경험담</span><span class="arrow">›</span>
+                    </div>
+                    <div class="mp-nav-item" data-target="sub-benefit">
+                        <span>특별 혜택</span><span class="arrow">›</span>
+                    </div>
+                    <div class="mp-nav-item" data-target="sub-residence">
+                        <span>주거</span><span class="arrow">›</span>
+                    </div>
+                    <div class="mp-nav-item" data-target="sub-contact">
+                        <span>저희에게 연락하세요</span>
+                    </div>
+                </nav>
+                <div class="mp-brand-links">
+                    <a href="#">바다의 아난티</a>
+                    <a href="#">아난티 샵</a>
+                    <a href="#">아난티 인테리어</a>
+                    <a href="#">자누</a>
+                </div>
+            </div>
+
+            <!-- 2열 + 3열: 서브메뉴 -->
+            <div class="mp-col2-wrap">
+
+                <!-- 목적지 -->
+                <div class="mp-col2 visible" id="sub-destination">
+                    <div class="mp-sub-group">
+                        <div class="mp-sub-group-title">Destination</div>
+                        <div class="mp-sub-list">
+                            <a href="https://ananti.kr/ko/chord"    target="_blank" class="mp-sub-item">
+                                <div class="dest-texts"><span class="dest-ko">아난티 코드</span><span class="dest-en">ANANTI CHORD · 경기 가평</span></div><span class="arrow">›</span>
+                            </a>
+                            <a href="https://ananti.kr/ko/namhae"   target="_blank" class="mp-sub-item">
+                                <div class="dest-texts"><span class="dest-ko">아난티 남해</span><span class="dest-en">ANANTI NAMHAE · 경남 남해</span></div><span class="arrow">›</span>
+                            </a>
+                            <a href="https://ananti.kr/ko/cove"     target="_blank" class="mp-sub-item">
+                                <div class="dest-texts"><span class="dest-ko">아난티 코브</span><span class="dest-en">ANANTI COVE · 부산 기장</span></div><span class="arrow">›</span>
+                            </a>
+                            <a href="https://ananti.kr/ko/village"  target="_blank" class="mp-sub-item">
+                                <div class="dest-texts"><span class="dest-ko">빌라쥬 드 아난티</span><span class="dest-en">VILLAGE DE ANANTI · 부산</span></div><span class="arrow">›</span>
+                            </a>
+                            <a href="https://ananti.kr/ko/jeju"     target="_blank" class="mp-sub-item">
+                                <div class="dest-texts"><span class="dest-ko">아난티 클럽 제주</span><span class="dest-en">ANANTI CLUB JEJU · 제주 구좌</span></div><span class="arrow">›</span>
+                            </a>
+                            <a href="https://ananti.kr/ko/joongang" target="_blank" class="mp-sub-item">
+                                <div class="dest-texts"><span class="dest-ko">아난티 중앙 골프클럽</span><span class="dest-en">ANANTI JOONGANG GOLF · 경기</span></div><span class="arrow">›</span>
+                            </a>
+                            <a href="https://ananti.kr/ko/ganm"     target="_blank" class="mp-sub-item">
+                                <div class="dest-texts"><span class="dest-ko">아난티 앳 강남</span><span class="dest-en">ANANTI AT GANGNAM · 서울 강남</span></div><span class="arrow">›</span>
+                            </a>
+                            <a href="https://ananti.kr/ko/atnamhae" target="_blank" class="mp-sub-item">
+                                <div class="dest-texts"><span class="dest-ko">아난티 앳 남해</span><span class="dest-en">ANANTI AT NAMHAE · 경남 남해</span></div><span class="arrow">›</span>
+                            </a>
+                            <a href="https://ananti.kr/ko/busan"    target="_blank" class="mp-sub-item">
+                                <div class="dest-texts"><span class="dest-ko">아난티 앳 부산</span><span class="dest-en">ANANTI AT BUSAN · 부산 기장</span></div><span class="arrow">›</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 경험담 -->
+                <div class="mp-col2" id="sub-experience">
+                    <div class="mp-sub-group">
+                        <div class="mp-sub-group-title">Experience</div>
+                        <div class="mp-sub-list">
+                            <div class="mp-sub-item exp-item active-exp" data-detail="detail-stay">
+                                <span>스테이</span><span class="arrow">›</span>
+                            </div>
+                            <div class="mp-sub-item exp-item" data-detail="detail-wellness">
+                                <span>웰니스</span><span class="arrow">›</span>
+                            </div>
+                            <div class="mp-sub-item exp-item" data-detail="detail-dining">
+                                <span>식사</span><span class="arrow">›</span>
+                            </div>
+                            <div class="mp-sub-item exp-item" data-detail="detail-golf">
+                                <span>골프</span><span class="arrow">›</span>
+                            </div>
+                            <div class="mp-sub-item exp-item" data-detail="detail-culture">
+                                <span>문화</span><span class="arrow">›</span>
+                            </div>
+                            <div class="mp-sub-item exp-item" data-detail="detail-event">
+                                <span>축하 행사 및 이벤트</span><span class="arrow">›</span>
+                            </div>
+                            <div class="mp-sub-item exp-item" data-detail="detail-active">
+                                <span>액티브 어드벤처</span><span class="arrow">›</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3열: 상세 링크 -->
+                    <div class="mp-sub-detail exp-detail" id="detail-stay">
+                        <div class="mp-detail-title">Stay</div>
+                        <a href="https://ananti.kr/ko/chord/CD0101"       target="_blank" class="mp-detail-item">아난티 코드</a>
+                        <a href="https://ananti.kr/ko/namhae/NH0101"      target="_blank" class="mp-detail-item">아난티 남해</a>
+                        <a href="https://ananti.kr/ko/cove/penthouse"     target="_blank" class="mp-detail-item">아난티 코브</a>
+                        <a href="https://ananti.kr/ko/village/penthouse"  target="_blank" class="mp-detail-item">빌라쥬 드 아난티</a>
+                        <a href="https://ananti.kr/ko/jeju/JJ0201"        target="_blank" class="mp-detail-item">아난티 클럽 제주</a>
+                        <a href="https://ananti.kr/ko/ganm/GN0101"        target="_blank" class="mp-detail-item">아난티 앳 강남</a>
+                        <a href="https://ananti.kr/ko/atnamhae/NH0101"    target="_blank" class="mp-detail-item">아난티 앳 남해</a>
+                        <a href="https://ananti.kr/ko/busan/BS0112"       target="_blank" class="mp-detail-item">아난티 앳 부산 코브</a>
+                        <a href="https://ananti.kr/ko/atbusan/ABS0103"    target="_blank" class="mp-detail-item">아난티 앳 부산 빌라쥬</a>
+                    </div>
+                    <div class="mp-sub-detail exp-detail" id="detail-wellness" style="display:none;">
+                        <div class="mp-detail-title">Wellness</div>
+                        <a href="https://ananti.kr/ko/chord/CD0301"  target="_blank" class="mp-detail-item">워터하우스 (코드)</a>
+                        <a href="https://ananti.kr/ko/namhae/NH0601" target="_blank" class="mp-detail-item">워터하우스 (남해)</a>
+                        <a href="https://ananti.kr/ko/cove/CV0301"   target="_blank" class="mp-detail-item">워터하우스 (코브)</a>
+                        <a href="https://ananti.kr/ko/busan/BS1101"  target="_blank" class="mp-detail-item">워터하우스 (앳 부산)</a>
+                    </div>
+                    <div class="mp-sub-detail exp-detail" id="detail-dining" style="display:none;">
+                        <div class="mp-detail-title">Dining</div>
+                        <a href="https://ananti.kr/ko/chord/CD0701"     target="_blank" class="mp-detail-item">아난티 코드</a>
+                        <a href="https://ananti.kr/ko/namhae/NH0401"    target="_blank" class="mp-detail-item">아난티 남해</a>
+                        <a href="https://ananti.kr/ko/cove/CV0701"      target="_blank" class="mp-detail-item">아난티 코브</a>
+                        <a href="https://ananti.kr/ko/village/VL0602"   target="_blank" class="mp-detail-item">빌라쥬 드 아난티</a>
+                        <a href="https://ananti.kr/ko/ganm/GN0301"      target="_blank" class="mp-detail-item">아난티 앳 강남</a>
+                        <a href="https://ananti.kr/ko/busan/BS0301"     target="_blank" class="mp-detail-item">아난티 앳 부산 코브</a>
+                        <a href="https://ananti.kr/ko/atbusan/ABS0402"  target="_blank" class="mp-detail-item">아난티 앳 부산 빌라쥬</a>
+                    </div>
+                    <div class="mp-sub-detail exp-detail" id="detail-golf" style="display:none;">
+                        <div class="mp-detail-title">Golf</div>
+                        <a href="https://ananti.kr/ko/chord/CD0201"      target="_blank" class="mp-detail-item">아난티 코드 골프클럽</a>
+                        <a href="https://ananti.kr/ko/namhae/NH0201"     target="_blank" class="mp-detail-item">아난티 남해 골프클럽</a>
+                        <a href="https://ananti.kr/ko/jeju/JJ0105"       target="_blank" class="mp-detail-item">아난티 클럽 제주</a>
+                        <a href="https://ananti.kr/ko/joongang/JOAN0101" target="_blank" class="mp-detail-item">아난티 중앙 골프클럽</a>
+                    </div>
+                    <div class="mp-sub-detail exp-detail" id="detail-culture" style="display:none;">
+                        <div class="mp-detail-title">Culture</div>
+                        <a href="https://ananti.kr/ko/cove/CV0501"                      target="_blank" class="mp-detail-item">이터널저니 (코브)</a>
+                        <a href="https://ananti.kr/ko/chord/CD0601"                     target="_blank" class="mp-detail-item">이터널저니 (코드)</a>
+                        <a href="https://ananti.kr/ko/namhae/NH0301"                    target="_blank" class="mp-detail-item">이터널저니 (남해)</a>
+                        <a href="https://ananti.kr/ko/village/board/cultureclub/PA0801" target="_blank" class="mp-detail-item">컬처클럽 (빌라쥬)</a>
+                    </div>
+                    <div class="mp-sub-detail exp-detail" id="detail-event" style="display:none;">
+                        <div class="mp-detail-title">Events</div>
+                        <a href="https://ananti.kr/ko/cove/CV1001"  target="_blank" class="mp-detail-item">연회 (코브)</a>
+                        <a href="https://ananti.kr/ko/busan/BS0705" target="_blank" class="mp-detail-item">연회 (앳 부산 코브)</a>
+                        <a href="https://ananti.kr/ko/busan/BS0801" target="_blank" class="mp-detail-item">웨딩 (앳 부산 코브)</a>
+                    </div>
+                    <div class="mp-sub-detail exp-detail" id="detail-active" style="display:none;">
+                        <div class="mp-detail-title">Active</div>
+                        <a href="https://ananti.kr/ko/cove/CV0901"   target="_blank" class="mp-detail-item">해안 산책로 (코브)</a>
+                        <a href="https://ananti.kr/ko/namhae/NH0801" target="_blank" class="mp-detail-item">산책로 (남해)</a>
+                        <a href="https://ananti.kr/ko/chord/CD1101"  target="_blank" class="mp-detail-item">라켓 클럽 (코드)</a>
+                        <a href="https://ananti.kr/ko/chord/CD0401"  target="_blank" class="mp-detail-item">야외수영장 (코드)</a>
+                    </div>
+                </div>
+
+                <!-- 특별 혜택 -->
+                <div class="mp-col2" id="sub-benefit">
+                    <div class="mp-sub-group">
+                        <div class="mp-sub-group-title">Offers</div>
+                        <div class="mp-sub-list">
+                            <div class="mp-sub-item"><span>멤버십 혜택</span><span class="arrow">›</span></div>
+                            <div class="mp-sub-item"><span>시즌 오퍼</span><span class="arrow">›</span></div>
+                            <div class="mp-sub-item"><span>패키지</span><span class="arrow">›</span></div>
+                            <div class="mp-sub-item"><span>얼리버드 특가</span><span class="arrow">›</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 주거 -->
+                <div class="mp-col2" id="sub-residence">
+                    <div class="mp-sub-group">
+                        <div class="mp-sub-group-title">Residence</div>
+                        <div class="mp-sub-list">
+                            <div class="mp-sub-item"><span>아난티 레지던스</span><span class="arrow">›</span></div>
+                            <div class="mp-sub-item"><span>분양 안내</span><span class="arrow">›</span></div>
+                            <div class="mp-sub-item"><span>입주 문의</span><span class="arrow">›</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 연락하기 -->
+                <div class="mp-col2" id="sub-contact">
+                    <div class="mp-sub-group">
+                        <div class="mp-sub-group-title">Contact</div>
+                        <div class="mp-sub-list">
+                            <div class="mp-sub-item"><span>고객센터</span><span class="arrow">›</span></div>
+                            <div class="mp-sub-item"><span>예약 문의</span><span class="arrow">›</span></div>
+                            <div class="mp-sub-item"><span>이메일 문의</span><span class="arrow">›</span></div>
+                            <div class="mp-sub-item"><span>찾아오시는 길</span><span class="arrow">›</span></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- /mp-col2-wrap -->
+
+        </div><!-- /mp-body -->
+    </div><!-- /megaPanel -->
+
+
+    <header>
+        <div class="inner">
+            <div class="LeftArea">
+                <div class="FullMenu">
+                    <img class="ham-pc" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAASCAYAAADR/2dRAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDkuMC1jMDAwIDc5LjE3MWMyN2ZhYiwgMjAyMi8wOC8xNi0yMjozNTo0MSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDI0LjAgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjQ2REJDQTY2MzcxNDExRjE5ODk0QkQ4MkIyNzY5ODcyIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjQ2REJDQTY3MzcxNDExRjE5ODk0QkQ4MkIyNzY5ODcyIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NDZEQkNBNjQzNzE0MTFGMTk4OTRCRDgyQjI3Njk4NzIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NDZEQkNBNjUzNzE0MTFGMTk4OTRCRDgyQjI3Njk4NzIiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6qBqGIAAAAQ0lEQVR42mJkYGD4zzBIABPDKBgCgPH//0GTZAZXmhl1DM40Q8NyhuT0OKhChgUaOqNpBiNkRsuZUceMljNUAgABBgCAbQ8V5z21DAAAAABJRU5ErkJggg==" alt="">
+                    <img class="ham-tm" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAYCAYAAACbU/80AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDkuMC1jMDAwIDc5LjE3MWMyN2ZhYiwgMjAyMi8wOC8xNi0yMjozNTo0MSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpiYWUzY2YzZi00MjZlLTUwNGUtYmNiMC1mODU5YTkxYzEzN2IiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NDQxMzhFMUMzQzkyMTFGMUE0MzNEOUU0RUUwNTAzREUiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDQxMzhFMUIzQzkyMTFGMUE0MzNEOUU0RUUwNTAzREUiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDI0LjAgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NTQ1Y2RjMzctYjU2OS0zYTQwLTg4MTktYThmY2Y0ODY4ZTBkIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOmJhZTNjZjNmLTQyNmUtNTA0ZS1iY2IwLWY4NTlhOTFjMTM3YiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsPEdwkAAAA0SURBVHja7JQxEQAACITQ/p3fGD8ICRg4BghFljJ1AZkkGKFUI/SERuAJ30eogCu2gRNgAF+1CRWuRyqbAAAAAElFTkSuQmCC"  alt="">
+                </div>
+                <div class="Language"><span>EN</span></div>
+            </div>
+            <h1><a href="index.html">ANANTI</a></h1>
+            <div class="RightArea">
+                <a href="#" class="btn-reservation-pc">RESERVATION</a>
+                <a href="#" class="btn-reservation-tm">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAZCAYAAAAmNZ4aAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDkuMC1jMDAwIDc5LjE3MWMyN2ZhYiwgMjAyMi8wOC8xNi0yMjozNTo0MSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpiYWUzY2YzZi00MjZlLTUwNGUtYmNiMC1mODU5YTkxYzEzN2IiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NDQxMTJCRjIzQzkyMTFGMUE0MzNEOUU0RUUwNTAzREUiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDQxMTJCRjEzQzkyMTFGMUE0MzNEOUU0RUUwNTAzREUiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDI0LjAgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NTQ1Y2RjMzctYjU2OS0zYTQwLTg4MTktYThmY2Y0ODY4ZTBkIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOmJhZTNjZjNmLTQyNmUtNTA0ZS1iY2IwLWY4NTlhOTFjMTM3YiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PkEnASkAAAGVSURBVHjaYvz//z/DQABGEtTGA3ENEAsB8T8i9TAB8XcgliNBDxxoA/E2IP5PJr6MzVAWApbWAXEjEv8oEJ+Eup6JCEd/BuIJpPjSFYgvIbn6GxBn0TLORYF4AVpQrQNiQai8ERBPBmILaljWDTVsOhC/Q7LwLRD7IalrRJI7T41UjSs/fYD6VByauIyQxGOAeCtaihcB4j/QuGcG4k1AfAuf5Z/wpMin0PiF8ZdDHYIOsOnNI+TrT0RkCVAUROIxwwqI06Fq9wKxCw4HkmTxCmgwEgJyUPULiI1nfL6MIKBXFYgnAvE1aAkF0vcXiF8A8Q58oQRKXHOAmBNJDFQ43AbiaUD8Bo+l1UDcQoTHQIVOHBDfo0YWnElisfkFiBUptTSbzDL7CSWW8lFQWfyHRg9ZoJpCi78CMRs5Fp+k0GIQtmYgsmpDzgFSVEiYGqRaDCp/ZahgsTQxDQFkACoYKoFYAE/FQkyo7WAYSEBKYy8ZiB0p8C3MPlDRWkCshgwqpGZk/IDYODYD4l9A/JNKIS0HEGAAX8jcw0EjreAAAAAASUVORK5CYII=" alt="">
+                </a>
+            </div>
+        </div>
+    </header>
+
+
+    <section id="hero">
+        <img src="/memo-app/assets/Main-Visual-Bm8BRnCu.png" alt="아난티 메인 비주얼">
+    </section>
+
+    <section id="c01">
+        <div class="inner">
+            <div class="text">
+                <h2 class="tit">일상을 예술로 바꾸는 완벽한 <span>쉼</span></h2>
+                <p class="desc1">
+                    밀려오는 파도 소리에<br>
+                    복잡했던 마음을 가만히 내려놓고,<br>
+                    눈 앞에 펼쳐진 끝없는 푸름 속에서<br>
+                    진정한 나를 마주합니다.
+                </p>
+                <p class="desc2">
+                    아난티가 선사하는<br>
+                    고귀한 시간을 지금 확인해 보세요.
+                </p>
+            </div>
+            <figure class="img1"><img src="/memo-app/assets/c01_img1-YB1lmAli.png" alt="석양 노을"></figure>
+            <figure class="img2"><img src="/memo-app/assets/c01_img2-C7jSKAbR.png" alt="아난티 인피니티 풀"></figure>
+        </div>
+    </section>
+
+    <section id="c02">
+        <div class="inner">
+            <div class="top">
+                <h2>THE ONLY ONE,<br>SERENE RETREAT<br>ANANTI</h2>
+                <div class="desc">
+                    <p>
+                        눈부신 풍경, 한 걸음 앞선 감각, 본질에 가까운 아름다움<br>
+                        자연이 건네는 섬세한 환대와 깊이 있는 휴식<br>
+                        아난티는 지금, 이 시대가 기다려온<br>
+                        가장 품격 있는 쉼의 새로운 기준을 제안합니다.
+                    </p>
+                </div>
+            </div>
+            <figure class="img3"><img src="/memo-app/assets/c02_img3-CBWNswPZ.png" alt="아난티 가평 주차장 연못"></figure>
+        </div>
+    </section>
+
+    <section id="c03">
+        <div class="inner">
+            <div class="PromotionMovie">
+                <div class="track-wrap">
+                    <div class="track" id="track"></div>
+                </div>
+                <div class="scrubber">
+                    <button class="arr" id="prev">&#8592;</button>
+                    <div class="tabs" id="tabs"></div>
+                    <button class="arr" id="next">&#8594;</button>
+                </div>
+            </div>
+            <p class="desc">
+                BRINGING THE MOST SERENE MOMENTS TO YOUR ONE AND ONLY LIFE<br>
+                WITH THE MOST ELEVATED EXPERIENCE OF THIS ERA, ANANTI
+            </p>
+        </div>
+    </section>
+
+    <section id="c04">
+        <figure>
+            <img src="/memo-app/assets/c04_img7-DXNW5QXI.png" alt="아난티 남해">
+            <figcaption>
+                눈부신 자연과 고요한 숲의 공존
+                <span>자연을 온전히 품은 쉼, 그 위에 머물다.</span>
+            </figcaption>
+        </figure>
+    </section>
+
+    <section id="c05">
+        <div class="inner">
+            <div class="text">
+                <p class="desc1">바다와 맞닿은 풍경 위에 완성되는<br>아난티만의 특별한 휴식의 중심</p>
+                <p class="desc2">
+                    끝없이 펼쳐진 수평선과 함께<br>
+                    일상의 경계를 넘어서는 공간<br>
+                    자연의 깊이를 온전히 담아낸 인피니티 풀과<br>
+                    시간마저 느리게 흐르는 여유
+                </p>
+                <p class="desc3">오직 아난티에서만 경험할 수 있는 독보적인 공간.</p>
+            </div>
+            <div class="img-wrap">
+                <figure class="img1"><img src="/memo-app/assets/c05_img8-DNkw1T-y.png" alt="부산 아난티 수영장"></figure>
+                <figure class="img2"><img src="/memo-app/assets/c05_img9-CZ01fMGs.png" alt="파도"></figure>
+            </div>
+        </div>
+    </section>
+
+    <section id="c06">
+        <div class="inner">
+            <figure class="img1"><img src="/memo-app/assets/c06_img10-N3yyynMI.png" alt="아난티 남해 블루 야경"></figure>
+            <div class="text">
+                <p class="desc1">빛이 내려앉은 풍경 위에서<br>하루는 조용히 깊어집니다.</p>
+                <p class="desc2">
+                    어디에도 쫓기지 않는 시간<br>
+                    아무것도 채우지 않아도 충분한 공간<br>
+                    머무는 것만으로 완성되는 밤<br><br>
+                    ANANTI
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="c07">
+        <div class="img-wrap">
+            <figure class="img1"><img src="/memo-app/assets/c07_img11-CHj_mZUE.png" alt="아난티 음식"></figure>
+            <figure class="img2"><img src="/memo-app/assets/c07_img12-CR8bo4hi.png" alt="아난티 다이닝"></figure>
+            <figure class="img3"><img src="/memo-app/assets/c07_img13-CXDIlf_h.png" alt="아난티 연회장"></figure>
+            <figure class="img4"><img src="/memo-app/assets/c07_img14-BmJyprmv.png" alt="아난티 레스토랑"></figure>
+            <figure class="img5"><img src="/memo-app/assets/c07_img15-B__WEeeE.png" alt="아난티 주방"></figure>
+        </div>
+        <div class="inner">
+            <p class="desc">당신이 머무는 모든 시간이 영감이되는곳, 아난티라는 세계를 경험하세요.</p>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-top">
+            <ul>
+                <li><a href="https://ananti.kr/ko/ganm"     target="_blank"><span class="brand">ANANTI</span><span class="branch">AT GANGNAM</span></a></li>
+                <li><a href="https://ananti.kr/ko/busan"    target="_blank"><span class="brand">ANANTI</span><span class="branch">AT BUSAN COVE</span></a></li>
+                <li><a href="https://ananti.kr/ko/atbusan"  target="_blank"><span class="brand">ANANTI</span><span class="branch">AT BUSAN VILLAGE</span></a></li>
+                <li><a href="https://ananti.kr/ko/namhae"   target="_blank"><span class="brand">ANANTI</span><span class="branch">NAMHAE</span></a></li>
+                <li><a href="https://ananti.kr/ko/atnamhae" target="_blank"><span class="brand">ANANTI</span><span class="branch">AT NAMHAE</span></a></li>
+                <li><a href="https://ananti.kr/ko/chord"    target="_blank"><span class="brand">ANANTI</span><span class="branch">CHORD</span></a></li>
+                <li><a href="https://ananti.kr/ko/cove"     target="_blank"><span class="brand">ANANTI</span><span class="branch">COVE</span></a></li>
+                <li><a href="https://ananti.kr/ko/village"  target="_blank"><span class="brand">ANANTI</span><span class="branch">VILLAGE</span></a></li>
+                <li><a href="https://ananti.kr/ko/jeju"     target="_blank"><span class="brand">ANANTI</span><span class="branch">CLUB JEJU</span></a></li>
+                <li><a href="https://ananti.kr/ko/joongang" target="_blank"><span class="brand">ANANTI</span><span class="branch">JOONGANG GOLF</span></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <div class="inner">
+                <div class="footer-logo">
+                    <p class="logo-text">ANANTI</p>
+                    <p class="logo-sub">HOTELS &amp; RESORTS</p>
+                </div>
+                <div class="footer-info">
+                    <ul class="footer-menu">
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">멤버십 이용약관</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">서비스이용약관</a></li>
+                        <li><a href="#">고객센터</a></li>
+                        <li><a href="#">회사소개</a></li>
+                    </ul>
+                    <p class="footer-address">
+                        부산광역시 기장군 기장읍 기장해안로 268-31<br>
+                        대표이사 아단트 T. 051-604-7000 F.051-604-7001<br>
+                        사업자등록번호 101-81-06612 통신판매업신고 부산기장 0113호 호스팅서비스제공자 : (주)아난티
+                    </p>
+                </div>
+                <div class="footer-right">
+                    <div class="family-sites">
+                        <span>FAMILY SITES</span>
+                        <span class="arrow">
+                            <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:block;">
+                                <polyline points="1,1 6,7 11,1" stroke="rgba(255,255,255,0.5)" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </span>
+                    </div>
+                    <ul class="sns">
+                        <li><a href="#" aria-label="유튜브"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M23.5 6.19a3.02 3.02 0 0 0-2.12-2.14C19.55 3.58 12 3.58 12 3.58s-7.55 0-9.38.47A3.02 3.02 0 0 0 .5 6.19C0 8.03 0 12 0 12s0 3.97.5 5.81a3.02 3.02 0 0 0 2.12 2.14C4.45 20.42 12 20.42 12 20.42s7.55 0 9.38-.47a3.02 3.02 0 0 0 2.12-2.14C24 15.97 24 12 24 12s0-3.97-.5-5.81zM9.75 15.52V8.48L15.83 12l-6.08 3.52z"/></svg></a></li>
+                        <li><a href="#" aria-label="인스타그램"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a></li>
+                        <li><a href="#" aria-label="카카오톡"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 3C6.477 3 2 6.582 2 11.026c0 2.832 1.676 5.315 4.208 6.792L5.09 21.5l4.707-2.63C10.467 19.04 11.224 19.1 12 19.1c5.523 0 10-3.582 10-8.074C22 6.582 17.523 3 12 3z"/></svg></a></li>
+                        <li><a href="#" aria-label="페이스북"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>
